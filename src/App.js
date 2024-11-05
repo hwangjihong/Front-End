@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import SelectBox from "./components/SelectBox";
 import { GRADE_LIST } from "./constants/SelectBoxList";
 import { getStudentByGrade, saveSubjectsData } from "./api/api";
-import { handleAddSubject, handleRemoveSubject } from "./utils/btnEvent";
+import { handleAddSubject, handleRemoveSubject } from "./utils/btnUtils";
 
 const App = () => {
   const [grade, setGrade] = useState(1); // 선택된 학년(1~3) 상태 관리

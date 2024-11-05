@@ -16,7 +16,7 @@ export const getStudentByGrade = async (grade, setSubjectsData) => {
 export const saveSubjectsData = async (grade, subjectsData) => {
   try {
     await axios.put(
-      `${process.env.REACT_APP_SERVER_URL}/${grade}`,
+      `${process.env.REACT_APP_SERVER_URL}/students/${grade}`,
       subjectsData
     );
     alert("저장 완료!!");

@@ -56,7 +56,7 @@ export const isDuplicateSubject = (subjectsData) => {
         } else if (copyData[i].credit === 1 || copyData[j].credit === 1) {
           // 중복된 과목 둘중 하나라도 학점이 1인 과목이 있을 경우 중복 처리
           return true;
-        } else if (totalA > 60 && totalB > 60) {
+        } else if (totalA >= 60 && totalB >= 60) {
           // 중복된 과목 둘다 성적이 D0 이상인 경우 중복 처리
           return true;
         }

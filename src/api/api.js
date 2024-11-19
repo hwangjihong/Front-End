@@ -2,7 +2,7 @@ import axios from "axios";
 import { isDuplicateSubject } from "../utils/subjectUtils";
 // 이수, 필수, 과목명 순으로 오름차순 정렬
 export const sortSubjects = (res) => {
-  res.data?.subjects.sort(
+  res?.data?.subjects.sort(
     (a, b) =>
       a.category.localeCompare(b.category) ||
       a.type.localeCompare(b.type) ||

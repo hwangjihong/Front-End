@@ -23,7 +23,12 @@ input[type="number"]::-webkit-outer-spin-button {
   margin: 0;
 }
 
-.input-subName,
+.input-subName {
+  height: 28px;
+  text-align: left;
+  padding-left: 4px;
+}
+
 .input-credit,
 .input-score {
   height: 28px;

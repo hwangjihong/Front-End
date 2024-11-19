@@ -74,7 +74,7 @@ const Table = (props) => {
           </tr>
         </thead>
         <tbody>
-          {props.subjectsData?.subjects.map((subject) => {
+          {props.subjectsData?.subjects?.map((subject) => {
             if (!isNaN(subject.credit)) {
               totalCredit += subject.credit;
             }

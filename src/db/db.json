@@ -1,0 +1,85 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "subjects": [
+        {
+          "id": 1,
+          "category": "MAJ",
+          "type": "ELE",
+          "subjectName": "알고리즘",
+          "credit": 3,
+          "attendanceScore": 11,
+          "assignmentScore": 19,
+          "midtermScore": 30,
+          "finalScore": 26
+        },
+        {
+          "id": 2,
+          "category": "MAJ",
+          "type": "REQ",
+          "subjectName": "c언어",
+          "credit": 3,
+          "attendanceScore": 15,
+          "assignmentScore": 17,
+          "midtermScore": 29,
+          "finalScore": 26
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "subjects": [
+        {
+          "id": "2",
+          "category": "LIB",
+          "type": "REQ",
+          "subjectName": "서버프로그래밍",
+          "credit": 3,
+          "attendanceScore": 10,
+          "assignmentScore": 15,
+          "midtermScore": 18,
+          "finalScore": 23
+        },
+        {
+          "id": "1",
+          "category": "LIB",
+          "type": "ELE",
+          "subjectName": "글쓰기",
+          "credit": 2,
+          "attendanceScore": 14,
+          "assignmentScore": 19,
+          "midtermScore": 26,
+          "finalScore": 29
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "subjects": [
+        {
+          "id": "1",
+          "category": "MAJ",
+          "type": "REQ",
+          "subjectName": "Front-End 실습",
+          "credit": 3,
+          "attendanceScore": 13,
+          "assignmentScore": 19,
+          "midtermScore": 24,
+          "finalScore": 26
+        },
+        {
+          "id": "2",
+          "category": "MAJ",
+          "type": "ELE",
+          "subjectName": "무선네트워크",
+          "credit": 3,
+          "attendanceScore": 18,
+          "assignmentScore": 20,
+          "midtermScore": 27,
+          "finalScore": 30
+        }
+      ]
+    }
+  ]
+}

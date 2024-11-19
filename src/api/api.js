@@ -1,7 +1,7 @@
 import axios from "axios";
 import { isDuplicateSubject } from "../utils/subjectUtils";
 // 이수, 필수, 과목명 순으로 오름차순 정렬
-export const sortSubjects = (res) => {
+export const sortSubjects = async (res) => {
   res?.data?.subjects?.sort(
     (a, b) =>
       a.category.localeCompare(b.category) ||
@@ -16,7 +16,7 @@ export const getSubjectsData = async (grade, setSubjectsData) => {
     const res = await axios.get(
       `${process.env.REACT_APP_SERVER_URL}/students/${grade}`
     );
-    sortSubjects(res);
+    await sortSubjects(res);
     setSubjectsData(res.data);
   } catch (err) {
     console.error(err);
